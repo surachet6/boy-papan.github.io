@@ -1,0 +1,10 @@
+User-agent: *
+
+# TODO: We don't want to hint any badbots that there are some hidden pages in the site.
+# Remove this and instead use `<meta name="robots" content="noindex">` or `X-Robots-Tag: noindex`.
+# See more at: https://support.google.com/webmasters/answer/93710?hl=en
+
+Disallow: /casein
+Disallow: /admin
+
+Allow: /
